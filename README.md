@@ -27,21 +27,16 @@ This is a playable, expandable Fabric mod scaffold for a competitive "hardest hi
 /hhs ready
 /hhs stop
 /hhs tokens
-/hhs questions
 /hhs ask <question_id>
-/hhs answer <question_id>:<answer>
+/hhs answer <answer>
 /hhs powerup <powerup_id>
 ```
 
 Example:
-
 ```mcfunction
 /hhs assign hider Steve
 /hhs assign hunter Alex
 /hhs start
-/hhs ready
-/hhs ask east_west
-/hhs answer east_west:west
 ```
 
 ## Build
