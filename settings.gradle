@@ -8,9 +8,8 @@ pluginManagement {
 
 dependencyResolutionManagement {
     // Fabric Loom adds its own local remapped-mod repository at project level.
-    // FAIL_ON_PROJECT_REPOS breaks Loom, so WARN keeps dependency resolution safe
-    // while allowing Loom's generated local repository.
-    repositoriesMode.set(RepositoriesMode.WARN)
+    // PREFER_PROJECT allows Loom's generated local repository.
+    repositoriesMode.set(RepositoriesMode.PREFER_PROJECT)
     repositories {
         maven { url = 'https://maven.fabricmc.net/' }
         mavenCentral()
